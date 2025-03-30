@@ -42,7 +42,7 @@ To get started, ensure you have the following:
    Create a virtual environment to manage dependencies for your project:
 
    ```bash
-   python -m venv venv
+   python -m venv .venv
    ```
 
 2. **Activate the Virtual Environment**:
@@ -50,7 +50,7 @@ To get started, ensure you have the following:
    On Windows:
 
    ```bash
-   .\venv\Scripts\activate
+   .\.venv\Scripts\activate
    ```
 
    On macOS/Linux:

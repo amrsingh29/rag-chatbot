@@ -126,7 +126,7 @@ def retrieve_and_generate():
     llm_response = llm.invoke([prompt])
     ai_message = llm_response.content
 
-    # Return the response in JSON format
+    # Return the response in JSON format for API request.
     return jsonify({"response": ai_message})
 
 
